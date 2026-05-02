@@ -1,0 +1,40 @@
+name: Generate Knowledge Base
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/content/**'
+      - 'src/pages/**'
+      - 'scripts/generate-knowledge-base.mjs'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate knowledge base
+        run: node scripts/generate-knowledge-base.mjs
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-generate knowledge-base.json"
+          file_pattern: "public/knowledge-base.json"
+          commit_user_name: "GitHub Action"
+          commit_user_email: "action@github.com"

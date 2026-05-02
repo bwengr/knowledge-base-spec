@@ -1,0 +1,73 @@
+{
+  "name": "Example Site",
+  "description": "A small business website with services and blog posts",
+  "baseUrl": "https://example.com",
+  "generatedAt": "2026-05-02T12:00:00Z",
+  "sections": [
+    {
+      "id": "homepage-about",
+      "url": "https://example.com/about",
+      "type": "general",
+      "title": "About Us",
+      "chunks": [
+        {
+          "content": "We are a small business providing web development services since 2015. Our team specializes in building fast, accessible websites for local businesses.",
+          "position": 1
+        },
+        {
+          "content": "We believe in using open source tools and transparent pricing. Every project includes ongoing support and maintenance options.",
+          "position": 2
+        }
+      ]
+    },
+    {
+      "id": "service-web-design",
+      "url": "https://example.com/services/web-design",
+      "type": "service-page",
+      "title": "Web Design Services",
+      "chunks": [
+        {
+          "content": "Our web design service includes custom layouts, mobile responsiveness, and SEO optimization. Prices start at $2000 for a basic business website.",
+          "position": 1
+        },
+        {
+          "content": "Every project includes up to 5 rounds of revisions, a content management system, and training on how to update your own content.",
+          "position": 2
+        }
+      ]
+    },
+    {
+      "id": "blog-launch-post",
+      "url": "https://example.com/blog/2026/05/01/launch-announcement",
+      "type": "blog-post",
+      "title": "We Are Now Open for Business",
+      "meta": {
+        "author": "Jane Smith",
+        "pubDate": "2026-05-01",
+        "tags": ["announcement", "news"]
+      },
+      "chunks": [
+        {
+          "content": "After months of preparation, we are excited to announce that our web design studio is now accepting new clients. We focus on fast-loading, accessible websites built with modern tools.",
+          "position": 1
+        },
+        {
+          "content": "Our first project is a complete redesign for a local restaurant including online ordering integration and an events calendar.",
+          "position": 2
+        }
+      ]
+    },
+    {
+      "id": "faq-payment",
+      "url": "https://example.com/faq",
+      "type": "faq",
+      "title": "Frequently Asked Questions",
+      "chunks": [
+        {
+          "content": "What payment methods do you accept? We accept bank transfers, credit cards, and PayPal. A 50% deposit is required to begin work, with the balance due upon completion.",
+          "position": 1
+        }
+      ]
+    }
+  ]
+}

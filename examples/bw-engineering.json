@@ -1,0 +1,88 @@
+{
+  "name": "B+W Engineering",
+  "description": "Civil engineering firm in Los Angeles specializing in grading plans, drainage plans, hydrology reports, and fire rebuild projects in Altadena and Pacific Palisades",
+  "baseUrl": "https://bwengr.com",
+  "generatedAt": "2026-05-02T12:00:00Z",
+  "sections": [
+    {
+      "id": "services-grading-plans",
+      "url": "https://bwengr.com/services/grading-plans",
+      "type": "service-page",
+      "title": "Grading Plans",
+      "chunks": [
+        {
+          "content": "Grading plans show how a property will be shaped to manage water flow and create level building areas. They include existing and proposed topography, drainage patterns, cut and fill calculations, and retaining wall locations. Required by LADBS for most building permits in Los Angeles.",
+          "position": 1
+        },
+        {
+          "content": "We produce grading plans for hillside properties, flat lots with basements, ADU projects, and fire rebuilds. Every plan includes our civil engineer stamp and signature for LADBS submittal.",
+          "position": 2
+        }
+      ]
+    },
+    {
+      "id": "services-drainage-plans",
+      "url": "https://bwengr.com/services/drainage-plans",
+      "type": "service-page",
+      "title": "Drainage Plans",
+      "chunks": [
+        {
+          "content": "Drainage plans shows how stormwater will be collected and routed away from structures. Includes downspout connections, area drains, catch basins, and pipe sizing calculations. Essential for properties where gravity drainage is complex or where sump pumps are required.",
+          "position": 1
+        },
+        {
+          "content": "We design conventional gravity drainage systems and sump pump systems for below-grade spaces like basements and lightwells. For properties with steep slopes or adjacent property runoff issues, we develop comprehensive drainage strategies.",
+          "position": 2
+        }
+      ]
+    },
+    {
+      "id": "blog-altadena-drainage-2026-04-27",
+      "url": "https://bwengr.com/blog/2026/04/27/altadena-drainage-plan-without-sump-pump-or-lid-covenant",
+      "type": "blog-post",
+      "title": "Altadena Drainage Plan Without Sump Pump or LID Covenant",
+      "meta": {
+        "pubDate": "2026-04-27",
+        "tags": ["altadena", "drainage-plans", "fire-rebuild"]
+      },
+      "chunks": [
+        {
+          "content": "An Altadena fire rebuild required a drainage plan without a sump pump and without an LID covenant. We routed roof downspouts to bubbler pot spreaders in the backyard, allowing water to percolate into the soil naturally. The rest of the site drains via sheet flow to the street.",
+          "position": 1
+        },
+        {
+          "content": "LID covenants require permanent stormwater management features that stay with the property. When buyers or lenders see an LID covenant, they often have questions. By designing a conventional drainage system instead, we avoided this complication entirely.",
+          "position": 2
+        }
+      ]
+    },
+    {
+      "id": "portfolio-altadena-wapello-street",
+      "url": "https://bwengr.com/portfolio/altadena-wapello-street-2",
+      "type": "portfolio",
+      "title": "Altadena Wapello Street Drainage Plan",
+      "chunks": [
+        {
+          "content": "Fire rebuild drainage plan for a Altadena property. The project included a full drainage plan, erosion control measures, and coordination with the county on stormwater requirements. No sump pump needed.",
+          "position": 1
+        }
+      ]
+    },
+    {
+      "id": "faq-sump-pump",
+      "url": "https://bwengr.com/services/sump-pump-design",
+      "type": "faq",
+      "title": "Common Questions About Sump Pump Design",
+      "chunks": [
+        {
+          "content": "When is a sump pump required? When basement lightwells, sunken pool covers, or other below-grade spaces sit below the street flowline and cannot gravity drain. The pump collects water and pushes it to the municipal drainage system.",
+          "position": 1
+        },
+        {
+          "content": "How does a sump pump work? A basin collects water that gravity-flows into it from the lightwell or lower area. A float switch activates the pump when water reaches a certain level. The pump then pushes water through a pipe to an outlet above street grade.",
+          "position": 2
+        }
+      ]
+    }
+  ]
+}
